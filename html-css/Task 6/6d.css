@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.tytul{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tekst{
+    font-size: 17px;
+}
+
+.tekst2{
+    text-decoration: underline;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .przycisk_bialy{
+                border:none;
+                border-radius: 3px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                cursor: pointer;
+            }
+            .przycisk_czarny{
+                border:none;
+                border-radius: 3px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                cursor: pointer;
+                background-color: black;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="przycisk" onclick="
+            const button = document.querySelector('.przycisk');
+            if (!button.classList.contains('przycisk_czarny')){
+                button.classList.add('przycisk_czarny')
+            }
+            else{
+                button.classList.remove('przycisk_czarny')
+            }
+        ">Gaming
+        </button>
+
+        <button class="przycisk2" onclick="
+            const button = document.querySelector('.przycisk2');
+            if (!button.classList.contains('przycisk_czarny')){
+                button.classList.add('przycisk_czarny')
+            }
+        else{
+            button.classList.remove('przycisk_czarny')
+        }
+        ">Music
+        </button>
+
+        <button class="przycisk3" onclick="
+        const button = document.querySelector('.przycisk3');
+        if (!button.classList.contains('przycisk_czarny')){
+            button.classList.add('przycisk_czarny')
+        }
+        else{
+            button.classList.remove('przycisk_czarny')
+        }
+    ">Tech
+        </button>
+
+
+        <script>
+            
+            function kolorowanie(){
+                const button = document.querySelector();
+                if (!button.classList.contains('przycisk_czarny')){
+                button.classList.add('przycisk_czarny')
+            }
+            else{
+                button.classList.remove('przycisk_czarny')
+            }
+            }
+        </script>
+    </body>
+</html>

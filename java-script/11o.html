@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            sprawdzenie(['hello','search','world','good','search']);
+
+            
+            function sprawdzenie(strings){
+                let result = -1;
+                for (let i=0; i<strings.length; i++){
+                    if(strings[i] === 'search'){
+                        result = i;
+                        break;
+                        console.log(result);
+                    }
+                }
+                console.log(result);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button class="przycisk" onclick="addNewItem()">
+        Add to cart
+        </button>
+        <p class='newItem'></p>
+        
+        
+        <script>
+            let button1 = document.querySelector('.przycisk');
+            let newItem = '';
+            
+            function addNewItem(){
+                
+                const newItem = document.querySelector('.newItem');
+                
+                newItem.innerHTML = 'Added';
+                
+                setTimeout(function(){
+                    newItem.innerHTML = '';
+                },2000);
+            }
+
+            ;
+        </script>
+    </body>
+</html>
